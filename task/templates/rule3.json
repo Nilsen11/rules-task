@@ -1,0 +1,20 @@
+{
+  "name":"rule3",
+ "conditions":[
+   {
+     "code":"systolic_bp",
+     "operator":">",
+     "compared":140
+   },
+   {
+     "code":"diastolic_bp",
+     "operator":"<",
+     "compared":90
+   }
+ ],
+  "relations":"or",
+  "result":{
+    "id":3,
+    "type":"question"
+  }
+}

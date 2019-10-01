@@ -1,0 +1,50 @@
+{
+  "name": "rule1",
+  "conditions": [
+    {
+      "code": "abdominal_pain",
+      "operator": "=",
+      "compared": true
+    }
+  ],
+  "relations": null,
+  "result": {
+    "id": 1,
+    "type": "question"
+  }
+}
+
+
+//  # for i in Rules.objects.all():
+//        # rule = i.rule
+//        # check = []
+//        # for condition in rule["conditions"]:
+//        #     if condition["code"] in data:
+//        #         if condition["operator"] == "=":
+//        #             if data[condition["code"]] == condition["compared"]:
+//        #                 check.append(True)
+//        #             else:
+//        #                 check.append(False)
+//        #
+//        #         elif condition["operator"] == ">":
+//        #             if data[condition["code"]] > condition["compared"]:
+//        #                 check.append(True)
+//        #             else:
+//        #                 check.append(False)
+//        #
+//        #         elif condition["operator"] == "<":
+//        #             if data[condition["code"]] < condition["compared"]:
+//        #                 check.append(True)
+//        #             else:
+//        #                 check.append(False)
+//        #
+//        # if rule["relations"] != None:
+//        #     if rule["relations"] == "and":
+//        #         if check[0] == True and check[1] == True:
+//        #             result.append(rule["result"])
+//        #     elif rule["relations"] == "or":
+//        #         if check[0] == True or check[1] == True:
+//        #             result.append(rule["result"])
+//        # else:
+//        #     if check[0] == True:
+//        #         result.append(rule["result"])

@@ -1,0 +1,34 @@
+{
+  "relation": "or",
+  "conditions": [
+    {
+      "relation": "and",
+      "conditions": [
+        {
+          "relation": null,
+          "operator": ">",
+          "compared": 140,
+          "code": "systolic_bp"
+        },
+        {
+          "relation": null,
+          "operator": "=",
+          "compared": true,
+          "code": "abdominal_pain"
+        }
+      ]
+    },
+    {
+      "relation": null,
+      "operator": "<",
+      "compared": 90,
+      "code": "diastolic_bp"
+    }
+  ],
+  "result": {
+    "id": 1,
+    "type": "question"
+  }
+}
+
+

@@ -1,0 +1,21 @@
+{
+  "name":"rule2",
+ "conditions":[
+   {
+     "code":"gender",
+     "operator":"=",
+     "compared":"female"
+   },
+   {
+     "code":"age",
+     "operator":">",
+     "compared":45
+   }
+
+ ],
+  "relations":"and",
+  "result":{
+    "id":2,
+    "type":"question"
+  }
+}

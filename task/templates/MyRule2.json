@@ -1,0 +1,47 @@
+
+
+{
+  "relation": "or",
+  "conditions": [
+    {
+      "relation": "and",
+      "conditions": [
+        {
+          "relation": null,
+          "operator": ">",
+          "compared": 140,
+          "code": "systolic_bp"
+        },
+        {
+          "relation": null,
+          "operator": "=",
+          "compared": true,
+          "code": "abdominal_pain"
+        }
+      ]
+    },
+    {
+      "relation": "and",
+      "conditions": [
+        {
+          "relation": null,
+          "operator": ">",
+          "compared": 21,
+          "code": "age"
+        },
+        {
+          "relation": null,
+          "operator": "=",
+          "compared": "female",
+          "code": "gender"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "id": 2,
+    "type": "question"
+  }
+}
+
+
